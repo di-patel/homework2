@@ -1,9 +1,9 @@
-_____________________________________________________________________________________________________________________________________________________________________________
-| Variable                 | Variable Name | Units/Categories| Data Type | Allowed Values | Description                                                                     |
-|--------------------------|---------------|-----------------|-----------|--------------------------------------------------------------------------------------------------|
-| `date_sold`              |  DATE SOLD    | YYYY-MM-DD      | Date      |  2007 - 2019   | The date when the property was sold, including year, month, and date            |                    
-| `post_code`              |  ZIP          | Numeric         | String    |  0000 - 9999   | 4-digit postal or zip code of the property's location                           | 
-| `moving_avg_med_price`   |  PRICE        | USD ($)         | Integer   |  317k - 1.02m  | The sale prices based on the moving average of the median property sale price   |
-| `property_type`          |  TYPE         | House or Unit   | String    |  House / Unit  | The type of property sold, this is limited to a house or unit                   |      
-| `num_bedrooms`           |  BEDROOMS     | Count           | Integer   |    1 to 5      | The number of bedrooms in the property, this will be a range of 1 to 5 bedrooms |         
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_______________________________________________________________________________________________________________________________________________________________________________________
+| Variable                 | Variable Name | Units/Categories| Data Type | Allowed Values           | Description                                                                      |
+|--------------------------|---------------|-----------------|-----------|-------------------------------------------------------------------------------------------------------------|
+| `date_sold`              |  DATE SOLD    | YYYY-MM-DD      | Date      |  2007-02-06 to 2019-07-26 | The date when the property was sold, including year, month, and date            |                    
+| `post_code`              |  ZIP          | Numeric         | String    |  2600 to 2914             | 4-digit postal or zip code of the property's location                           | 
+| `moving_avg_med_price`   |  PRICE        | USD ($)         | Integer   |  56.5k - 8.00m            | The sale prices based on the moving average of the median property sale price   |
+| `property_type`          |  TYPE         | House or Unit   | String    |  House or Unit            | The type of property sold, this is limited to a house or unit                   |      
+| `num_bedrooms`           |  BEDROOMS     | Count           | Integer   |    0 to 5                 | The number of bedrooms in the property, this will be a range of 1 to 5 bedrooms |         
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
